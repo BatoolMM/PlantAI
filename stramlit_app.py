@@ -1,18 +1,14 @@
 
-from google.colab import drive
 from fastai.vision.all import *
 from fastai.vision.widgets import *
 from IPython.display import Image
-import virtualbox
 from ipywidgets import * 
 from PIL import Image
 import streamlit as st
 from pyngrok import ngrok
-import streamlit_theme as stt
 
 
 path = Path()
-stt.set_theme({'primary': '#1b3388'})
 st.set_option('deprecation.showfileUploaderEncoding', False)
 st.title("PlantAI")
 st.write('''
