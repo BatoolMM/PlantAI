@@ -17,7 +17,7 @@ st.write('''
 Uploaded = st.file_uploader('', type=['png','jpg','jpeg'])
 
 with st.spinner('Loading your picture into memory'):
-  model = load_learner('/content/export.pkl')
+  model = load_learner(path'/export.pkl')
   time.sleep(1)
 
 if Uploaded is not None:
