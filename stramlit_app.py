@@ -1,8 +1,6 @@
 
 from fastai.vision.all import *
 from fastai.vision.widgets import *
-from IPython.display import Image
-from ipywidgets import * 
 from PIL import Image
 import streamlit as st
 
