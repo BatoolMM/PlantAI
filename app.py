@@ -1,5 +1,5 @@
 
-from fastai.vision.all import *
+from fastai.vision import open_image, load_learner, image, torch
 from fastai.vision.widgets import *
 from PIL import Image
 import streamlit as st
