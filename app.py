@@ -3,7 +3,7 @@ from fastai.vision import open_image, load_learner, image, torch
 from fastai.vision.widgets import *
 from PIL import Image
 import streamlit as st
-
+import time
 
 path = Path()
 st.set_option('deprecation.showfileUploaderEncoding', False)
