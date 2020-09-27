@@ -1,5 +1,5 @@
 streamlit
-https://download.pytorch.org/whl/cpu/torch_stable.html 
+https://download.pytorch.org/whl/cpu/torch-1.1.0a0-cp36-cp36m-linux_aarch64.whl 
 fastai
 #torch
 #ipywidgets
