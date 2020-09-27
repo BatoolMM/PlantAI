@@ -5,7 +5,6 @@ from IPython.display import Image
 from ipywidgets import * 
 from PIL import Image
 import streamlit as st
-from pyngrok import ngrok
 import urllib.request
 import wget
 
