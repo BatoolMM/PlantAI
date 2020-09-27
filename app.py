@@ -1,14 +1,14 @@
 
 from fastai.vision.all import *
 from fastai.vision.widgets import *
-from IPython.display import Image
+#from IPython.display import Image
 from ipywidgets import * 
 from PIL import Image
 import streamlit as st
 import urllib.request
 import wget
 
-path = Path()
+#path = Path()
 st.set_option('deprecation.showfileUploaderEncoding', False)
 st.title("PlantAI")
 st.write('''
