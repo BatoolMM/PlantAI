@@ -1,4 +1,8 @@
 # PlantAI
+[![GitHub Actions CI Status](https://github.com/nf-core/splice/workflows/nf-core%20CI/badge.svg)](https://github.com/nf-core/splice/actions)
+[![GitHub Actions Linting Status](https://github.com/nf-core/splice/workflows/nf-core%20linting/badge.svg)](https://github.com/nf-core/splice/actions)
+[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg)](http://bioconda.github.io/)
+[![Docker](https://img.shields.io/docker/automated/nfcore/splice.svg)](https://hub.docker.com/r/nfcore/splice)
 This is a simple application which use a convolutional neural network (CNN) to characterise the plants in my home.
 ## Web App
 The link to the app deployed with streamlit and Heroku:
